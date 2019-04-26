@@ -13,6 +13,9 @@
     <header>
         <h1>Mi Blog de Cocina</h1>
     </header>
+    <div class="nav-menu">
+        <p><i class="fas fa-bars"></i>MENU</p>
+    </div>
     <nav class="nav-bar">
         <ul class="nav-ul">
             <li class="nav-li"><a href="home.html">HOME</a></li>
@@ -28,7 +31,7 @@
         </ul>
     </nav>
     <div class="slide">
-        <a href="receta.html"><img src="../images/img-1.jpg"></a>
+        <a href="receta.html"><img id="img-mobile" src="../images/img-1.jpg"></a>
         <img src="../images/img-2.jpg">
         <img src="../images/img-3.jpg">
         <div class="transition">
@@ -43,21 +46,21 @@
         <section>
             <div class="categories">
                 <div class="main-links">
-                    <div class="container-text">
-                        <img src="../images/platos.jpg">
+                    <div id="mobile-container1" class="container-text">
+                        <img id="mobile-img1" src="../images/platos.jpg">
                         <div class="link-text">
                             <p class="p-text">Platos</p>
                         </div>
                     </div>
-                    <div class="container-text">
-                        <img src="../images/recetas.JPG">
+                    <div id="mobile-container2" class="container-text">
+                        <img id="mobile-img2" src="../images/recetas.JPG">
                         <div class="link-text">
                             <p class="p-text">Recetas</p>
                         </div>
                     </div>
                     <div class="container-text">
-                        <img src="../images/exoticos.JPG">
-                        <div class="link-text">
+                        <img id="mobile-img3" src="../images/exoticos.JPG">
+                        <div id="mobile-p3" class="link-text">
                             <p class="p-text">Exoticos</p>
                         </div>
                     </div>
@@ -120,13 +123,15 @@
         <footer class="social-networks">
             <div class="footer-list">
                 <ul class="footer-ul">
-                    <li class="footer-li"><i class="fab fa-facebook-f"></i>FACEBOOK</li>
-                    <li class="footer-li"><i class="fab fa-twitter"></i>TWITTER</li>
-                    <li class="footer-li"><i class="fab fa-google-plus-g"></i>GOOGLE+</li>
-                    <li class="footer-li"> <i class="fab fa-linkedin"></i>LINKEDIN</li>
-                    <li class="footer-li"><i class="fab fa-instagram"></i>INSTAGRAM</li>
-                    <li class="footer-li"><i class="fab fa-youtube"></i>YOUTUBE</li>
-                </ul>  
+                    <li class="footer-li"><i class="fab fa-facebook-f"></i><p>FACEBOOK</p></li>
+                    <li class="footer-li"><i class="fab fa-twitter"></i><p>TWITTER</p></li>
+                    <li class="footer-li"><i class="fab fa-google-plus-g"></i><p>GOOGLE+</p></li>
+                    <li class="footer-li"> <i class="fab fa-linkedin"></i><p>LINKEDIN</p></li>
+                    <li class="footer-li"><i class="fab fa-instagram"></i><p>INSTAGRAM</p></li>
+                    <li class="footer-li"><i class="fab fa-youtube"></i><p>YOUTUBE</p></li>
+                </ul>
+                <div class="back-icon"></div> 
+                <a href="home.html"><i id="icon-footer" class="fas fa-arrow-circle-up"></i></a>
             </div>
         </footer>
     </main>

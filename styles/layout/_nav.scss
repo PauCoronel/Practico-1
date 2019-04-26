@@ -1,9 +1,14 @@
 nav {
+
+    @media (max-width: 360px) {
+        display: none;
+
+    }
+
     ul {
         list-style: none;
         display: flex;
         justify-content: center;
-        width: 100%;
         align-content: center;
         
         
@@ -166,3 +171,34 @@ nav {
         
 //     }
 // }
+
+.nav-menu {
+
+    p {
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+        i {
+            color: white;
+            text-align: center;
+            margin-right: 17px;
+            
+        }
+        
+    }
+
+    
+    display: none;
+    background-color: $main-color;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 40px;
+    
+
+    @media (max-width: 360px) {
+        display: block;
+
+    }
+}

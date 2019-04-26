@@ -13,19 +13,17 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    @media (max-width: 360px) {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     h1 {
         font-family: $secondary-font;
         font-size: 43px;
     }
 
-    @media (max-width: 360px) {
-        
-        h1 {
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    }
+    
 }
