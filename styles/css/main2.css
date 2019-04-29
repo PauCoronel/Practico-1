@@ -192,6 +192,12 @@ footer .footer-list .footer-ul .footer-li {
   font-family: "IBM Plex Mono", monospace;
   font-size: 15px;
 }
+footer .footer-list .footer-ul .footer-li a {
+  text-decoration: none;
+}
+footer .footer-list .footer-ul .footer-li a:visited {
+  color: #a09999;
+}
 @media (max-width: 360px) {
   footer .footer-list .footer-ul .footer-li p {
     display: none;
@@ -523,6 +529,9 @@ body .social-network-column {
     height: 100%;
     margin-bottom: 47px;
   }
+}
+body .social-network-column a {
+  text-decoration: none;
 }
 body .social-network-column #facebook {
   background-color: #3a5997;

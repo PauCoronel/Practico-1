@@ -1,3 +1,5 @@
+@import "../abstract/variables";
+
 footer {
     width: 100%;
     text-align: center;
@@ -77,27 +79,39 @@ footer {
             width: 100%;
             padding: 0;
             
+            
 
             .footer-li {
                 color: $text-color;
                 font-family: $main-font;
                 font-size: 15px;
 
-                p {
-                    @media (max-width:360px) {
-                        display: none;
-
+                a{
+                    text-decoration: none;
+                    color: $text-color;
+                    &:visited{
+                        color: $text-color;
                     }
-                    @media (max-width:650px) {
-                        display: none;
+                    p {
+                        color: $text-color;
+                        @media (max-width:360px) {
+                            display: none;
+    
+                        }
+                        @media (max-width:650px) {
+                            display: none;
+                        }
+                            
                     }
-                        
+    
+    
+                    i {
+                        color:$text-color;
+                        padding-left: 0;
+                    }
+                    
                 }
 
-
-                i {
-                    padding-left: 0;
-                }
                 
                 
             }

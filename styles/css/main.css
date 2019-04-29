@@ -111,6 +111,12 @@ footer .footer-list .footer-ul .footer-li {
   font-family: "IBM Plex Mono", monospace;
   font-size: 15px;
 }
+footer .footer-list .footer-ul .footer-li a {
+  text-decoration: none;
+}
+footer .footer-list .footer-ul .footer-li a:visited {
+  color: #a09999;
+}
 @media (max-width: 360px) {
   footer .footer-list .footer-ul .footer-li p {
     display: none;
@@ -239,7 +245,7 @@ body .slide .transition {
 body .slide .transition .transition-container {
   position: relative;
   top: 50px;
-  transition: top 1.5s;
+  transition: top 1s;
 }
 body .slide .transition .transition-container h4 {
   font-family: "IBM Plex Mono", monospace;
@@ -438,6 +444,12 @@ body main section .categories .main-links .container-text .link-text:hover {
     position: absolute;
     margin-bottom: -19px;
   }
+}
+body main section .categories .main-links .container-text .link-text a {
+  text-decoration: none;
+}
+body main section .categories .main-links .container-text .link-text a:visited {
+  color: black;
 }
 @media (max-width: 360px) {
   body main section .categories .main-links .container-text {

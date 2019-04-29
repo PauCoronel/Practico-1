@@ -42,7 +42,7 @@ body {
 
                 position: relative;
                 top: 50px;
-                transition: top 1.5s;
+                transition: top 1s;
 
                 h4 {
                     font-family: $main-font;
@@ -295,7 +295,12 @@ body {
                                 margin-bottom: -19px;
                             }
 
-                        
+                            a {
+                                text-decoration: none;
+                                &:visited{
+                                    color: black;
+                                }
+                            }
                             
                         }
                         @media (max-width:360px) {
