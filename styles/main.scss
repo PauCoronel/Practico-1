@@ -20,7 +20,7 @@ body {
         flex-direction: row;
         justify-content: space-evenly;
         @media (max-width:800px) {
-            display: flex;
+            display: flex;/*cuando el elemento ya es flexible, no es necesario volver a asignarlo en las media quieries*/
             flex-wrap: wrap;
             width: 100%;
             justify-content: space-around;
