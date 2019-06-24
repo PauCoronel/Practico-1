@@ -1,2 +1,3 @@
 # Practico-1
-Ailén Zaccagnino - Paula Coronel
+
+Trabajo práctico n°1 - ADA 7ma generación
